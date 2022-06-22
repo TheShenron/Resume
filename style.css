@@ -95,10 +95,10 @@ p{
     left: 53%;
     bottom: -70px;
     border-radius: 50%;
-    background-image: url(./Gourav\ photo1.jpg);
+    background-image: url(./Gourav_profilepic.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 25px;
+    background-position: 10px;
     transition: all .1s;
 }
 
