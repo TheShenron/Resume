@@ -49,7 +49,7 @@ p{
 
 
 #header{
-    background-color: #479099;
+    background-color: rgb(51,102,153);
     color: white;
     border-radius: 10px;
     position: relative;
@@ -62,7 +62,12 @@ p{
 }
 
 .n_child{
-    width: 47%;
+    width: 50%;
+}
+
+
+.n_child:first-child{
+    width: 65%;
 }
 
 
@@ -87,7 +92,7 @@ p{
     width: 100%;
     height: 100px;
     clip-path: polygon(60% 44%, 0 0, 100% 0);
-    background-color: #479099;
+    background-color: rgb(51,102,153);
 }
 
 .profile_photo{
@@ -128,7 +133,7 @@ p{
     /* padding: 10.3mm 10.3mm 43mm 10.3mm; */
     padding: 0 7mm;
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     justify-content: space-between;
 
 }
@@ -141,7 +146,7 @@ p{
 .date{
     font-size: 10pt;
     font-style: italic;
-    color: rgb(247, 178, 52);
+    color: rgb(242,100,100);
 }
 
 
@@ -149,12 +154,12 @@ p{
 
 
 .level0{
-    color:#479099;
+    color:rgb(242,100,100);
 }
 
 .level0 i{
     color:white;
-    background-color: #479099;
+    background-color: rgb(242,100,100);
     padding: 1px 5px;
     border-radius: 5px;
     font-size: 18px;
@@ -162,9 +167,7 @@ p{
 
 
 span.BTN{
-    background-color: #479099;
-    color: white;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 .project_feature{
@@ -195,7 +198,7 @@ li{
     left: -15px;
     border-radius: 2px;
     /* margin: 0 5px; */
-    background-color: rgb(247, 178, 52);
+    background-color: rgb(242,100,100);
 }
 
 
@@ -207,4 +210,9 @@ li{
     font-weight: 400;
     font-size: 13px;
     padding: 0 3px;
+}
+
+
+.text-dan{
+    color: rgb(242,100,100);
 }
