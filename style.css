@@ -49,7 +49,7 @@ p{
 
 
 #header{
-    background-color: rgb(51,102,153);
+    background-color: #928787;
     color: white;
     border-radius: 10px;
     position: relative;
@@ -92,7 +92,7 @@ p{
     width: 100%;
     height: 100px;
     clip-path: polygon(60% 44%, 0 0, 100% 0);
-    background-color: rgb(51,102,153);
+    background-color: #928787;
 }
 
 .profile_photo{
