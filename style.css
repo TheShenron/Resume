@@ -103,11 +103,12 @@ p{
     left: 53%;
     bottom: -60px;
     border-radius: 50%;
-    background-image: url(./Gourav_profilepic.jpg);
+    background-image: url(./GouravIMG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -30px;
+    background-position: -4px -20px;
     transition: all .1s;
+    transform: rotate(-30deg);
 }
 
 .img{
@@ -119,13 +120,9 @@ p{
  
 }
 
-.profile_photo:hover{
+/* .profile_photo:hover{
     transform: scale(1.05);
-}
-
-
-
-
+} */
 
 
 
