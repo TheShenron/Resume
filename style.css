@@ -128,15 +128,19 @@ p{
 
 .main_body{
     /* padding: 10.3mm 10.3mm 43mm 10.3mm; */
-    padding: 0 7mm;
+    padding: 0 5mm;
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
 
 }
 
+.b_child:nth-child(1){
+    width: 60%;
+}
+
 .b_child{
-    width: 48%;
+    width: 38%;
 }
 
 
@@ -176,8 +180,15 @@ span.BTN{
 
 ul{
     list-style-type: none;
-    padding: 2px 15px !important;
+    padding: 2px 5px !important;
     margin: 0 !important;
+}
+
+li::before{
+    content: "\2B1D";
+    color: rgb(242,100,100);
+    display: inline-block;
+    transform: scale(2);
 }
 
 li{
