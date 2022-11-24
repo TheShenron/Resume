@@ -103,12 +103,12 @@ p{
     left: 53%;
     bottom: -60px;
     border-radius: 50%;
-    background-image: url(./GouravIMG.png);
+    background-image: url(./GouravProfilePic.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -4px -20px;
+    /* background-position: -4px -20px; */
     transition: all .1s;
-    transform: rotate(-30deg);
+    /* transform: rotate(-30deg); */
 }
 
 .img{
